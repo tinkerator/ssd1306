@@ -1,4 +1,4 @@
-module zappem.net/pub/io/ssd1306
+module zappem.net/pub/io/device/ssd1306
 
 go 1.23.3
 

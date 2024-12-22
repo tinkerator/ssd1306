@@ -11,8 +11,8 @@ import (
 	"log"
 	"os"
 
+	"zappem.net/pub/io/device/ssd1306"
 	"zappem.net/pub/io/i2c"
-	"zappem.net/pub/io/ssd1306"
 )
 
 var (

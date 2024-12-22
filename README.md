@@ -15,7 +15,7 @@ https://www.digikey.com/htmldatasheets/production/2047793/0/0/1/ssd1306.html
 
 Automated package documentation for this Go package should be
 available from [![Go
-Reference](https://pkg.go.dev/badge/zappem.net/pub/io/ssd1306.svg)](https://pkg.go.dev/zappem.net/pub/io/ssd1306).
+Reference](https://pkg.go.dev/badge/zappem.net/pub/io/device/ssd1306.svg)](https://pkg.go.dev/zappem.net/pub/io/device/ssd1306).
 
 ## Hello world example
 
