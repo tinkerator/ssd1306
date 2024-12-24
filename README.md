@@ -92,6 +92,26 @@ just display a rectangle of dimensions `--x` and `--y` occupying the
 top left corner of the display. (This was surprisingly effective for
 debugging the code.)
 
+## Displaying text
+
+Given that we can render an image on the display, we can render text
+to an image and display that. A second example, `clock`, does just
+that:
+
+```
+$ GOARCH=arm GOOS=linux go build example/clock.go
+```
+
+And then copy and run `./clock` to a Raspberry Pi and run it:
+
+```
+pi@rpi:~ $ nohup ./clock > /dev/null 2>&1 &
+```
+
+The Raspberry Pi and `ssd1306` display becomes a digital clock:
+
+![clock image](clock.png)
+
 ## TODOs
 
 Nothing planned, but submit a bug if you have some ideas.
